@@ -11,19 +11,7 @@
       </thead>
       <tbody>
         <tr>
-          <th scope="row">1</th>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
+          <th scope="row">{{Employees.Person_id}}</th>
           <td></td>
           <td></td>
           <td></td>
@@ -35,5 +23,20 @@
 
 <script>
 
+export default {
+ 
+    data() {
+    return {
+      search:'',
 
+    }
+  },
+    computed: {
+  },
+  mounted() {
+ 
+  },
+  methods: {
+  }
+}
 </script>
