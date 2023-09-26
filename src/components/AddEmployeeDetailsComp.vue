@@ -21,9 +21,8 @@
           </div>
           <div class="form-group">
             <label for="id"PersonID</label>
-            <input type="number" class="form-control pass m-auto" id="number" v-model="Person_id" required>
+            <input type="number" class="form-control pass m-auto" id="number" v-model="Person_id">
           </div>
-          
           <button class="btn btn-primary my-5" type="submit">Submit application</button>
         </form>
         </div>

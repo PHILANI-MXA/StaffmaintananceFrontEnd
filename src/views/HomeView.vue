@@ -10,11 +10,11 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <th scope="row"></th>
-          <td></td>
-          <td></td>
-          <td></td>
+        <tr v-for="employee in employees" :key="employee.Person_id">
+          <th scope="row">{{employee.Person_id}}</th>
+          <td>{{employee.Firstname}}</td>
+          <td>{{employee.Lastname}}</td>
+          <td>{{employee.Birthday}}</td>
         </tr>
       </tbody>
     </table>
@@ -22,22 +22,25 @@
 </template>
 
 <script>
-
+import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
- 
-    data() {
-    return {
-      search:'',
-
-    }
+  name: "",
+  components: {
+    HelloWorld,
   },
-    computed: {
+  data() {
+    return {
+      search: "",
+    };
+  },
+  computed: {
+    employees() {
+      return this.$store.state.employees;
+    },
   },
   mounted() {
- 
+    this.$store.dispatch("getEmployees");
   },
-  methods: {
-  }
-}
+};
 </script>
