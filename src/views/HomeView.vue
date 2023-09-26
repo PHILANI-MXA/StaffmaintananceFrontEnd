@@ -11,7 +11,7 @@
       </thead>
       <tbody>
         <tr>
-          <th scope="row">{{Employees.Person_id}}</th>
+          <th scope="row"></th>
           <td></td>
           <td></td>
           <td></td>
@@ -22,6 +22,7 @@
 </template>
 
 <script>
+
 
 export default {
  
