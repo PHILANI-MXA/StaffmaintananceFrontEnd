@@ -2,7 +2,7 @@
     <div>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="" alt=""></a>
+        <a class="navbar-brand" href="#"><img src="https://www.iloveimg.com/download/dnn6qx4vyw6j8hgw3401dz5494kA1qkmtsjdhjm7cyAc03hqbq1rfb269wrvp2lq1py2sqbm4575vrq4r1h0zygjlz46tshq6kdd6vnhAg8270hzzdfmwwslj9Atn6wcn3k50683rskwjlywtd7mv91h7sx4A6h4AhA7A0wwzfqw19gd7fx1/10" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -12,7 +12,7 @@
              <router-link class="text-decoration-none text-white" to="/">Employees</router-link>
             </li>
             <li class="nav-item text-white">
-              <router-link class="text-decoration-none text-white" to="/about">Employmet details</router-link>
+              <router-link class="text-decoration-none text-white" to="/about">Employment details</router-link>
              </li>
           </ul>
         </div>
@@ -48,7 +48,7 @@
     position:fixed;
     width: 100%;
     top: 0;
-    background-color: #218bbd4c;
+    background-color: #145369;
     z-index:50;
     }
     </style>
